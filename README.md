@@ -183,6 +183,5 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ## ✨ Agradecimientos
 
-- Equipo de desarrollo
-- Contribuidores
+- Voxtns
 - Comunidad de React Native
