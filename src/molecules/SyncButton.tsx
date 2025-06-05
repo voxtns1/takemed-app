@@ -1,10 +1,8 @@
 import { successAnimation, syncAnimation } from '../media';
 
 import AnimatedButton from '../atoms/AnimatedButton';
-import { CustomTheme } from '../theme/types';
 import React from 'react';
 import { palette } from 'theme/tokens';
-import { useTheme } from 'react-native-paper';
 
 interface SyncButtonProps {
   isSyncing: boolean;
@@ -17,7 +15,6 @@ const SyncButton: React.FC<SyncButtonProps> = ({
   syncSuccess,
   onPress,
 }) => {
-  const theme = useTheme<CustomTheme>();
 
   if (isSyncing) {
     return (
